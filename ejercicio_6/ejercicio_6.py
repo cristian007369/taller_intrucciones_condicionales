@@ -21,14 +21,14 @@ if a==0:
     print("---------------------------------------------------")
 else:
     if d>0:
-        w1=(-b+math.sqrt(d))/2*a
-        w2=(-b-math.sqrt(d))/2*a
+        w1=round((-b+math.sqrt(d))/2*a,2)
+        w2=round((-b-math.sqrt(d))/2*a,2)
         print("---------------------------------------------------")
         print("Las soluciones de la ecuación son: x1="+str(w1)+" y x2="+str(w2))
         print("---------------------------------------------------")
     else:
         if d==0:
-            w=-b/2*a
+            w=round(-b/2*a,2)
             print("---------------------------------------------------")
             print("La solución de la ecuación es x= "+str(w))
             print("---------------------------------------------------")
